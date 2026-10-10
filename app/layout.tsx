@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Geist } from 'next/font/google';
 import './globals.css';
+import { SiteAnalytics } from '@/components/site-analytics';
 const geist = Geist({ subsets: ['latin'], variable: '--font-geist' });
 export const metadata: Metadata = {
   metadataBase: new URL(
@@ -24,7 +25,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={geist.variable}>{children}</body>
+      <body className={geist.variable}>
+        {children}
+        <SiteAnalytics />
+      </body>
     </html>
   );
 }

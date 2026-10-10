@@ -20,6 +20,7 @@
     "@ai-sdk/anthropic": "^4.0.77",
     "@ai-sdk/openai": "^4.0.90",
     "@react-pdf/renderer": "^4.9.0",
+    "@vercel/analytics": "^2.0.1",
     "ai": "^7.0.134",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -46,8 +47,8 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "globals": "^17.13.0",
     "prettier": "^3.9.9",
-    "tsx": "^4.23.15",
     "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.71.1",
     "vitest": "^4.1.11"
